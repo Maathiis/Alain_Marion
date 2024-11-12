@@ -1,42 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="../src/input.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="../tailwind.config.js"></script>
     <title>Alain Marion</title>
-</head>
-<body>
-    <div class="w-screen h-screen bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee] px-4 sm:px-10 md:px-20">
-        <!-- Navbar -->
-        <div class="">
-            <div class="flex flex-col sm:flex-row justify-between pt-5">
-                <div class="text-font font-bold text-lg sm:text-xl">
-                    Alain Marion
-                </div>
-                <div class="flex gap-2 sm:gap-5 mt-4 sm:mt-0">
-                    <div class="drop-shadow bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee] rounded-full w-20 sm:w-24 h-8 border-2 border-font text-font font-bold text-sm sm:text-xl text-center flex items-center justify-center">
-                        <a href="pages/index.html">Home</a>
-                    </div>
-                    <div class="drop-shadow bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee] rounded-full w-20 sm:w-24 h-8 border-2 border-font text-font font-bold text-sm sm:text-xl text-center flex items-center justify-center">
-                        <a href="blog/1.html">Blog</a>
-                    </div>
-                    <div class="drop shadow bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee] rounded-full w-20 sm:w-24 h-8 border-2 border-font text-font font-bold text-sm sm:text-xl text-center flex items-center justify-center">
-                        <a href="pages/contact.html">Contact</a>
-                    </div>
-                </div>
-                <div class="mt-4 sm:mt-0">
-                    ///
-                </div>
+  </head>
+  <body>
+      <!--Navbar-->
+      <div class="navbar bg-base-300">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h7" />
+              </svg>
             </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a href="../pages/index.html">Home</a></li>
+              <li><a href="../blog/1.html">Blog</a></li>
+              <li><a href="../pages/contact.html">Contact</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="my-5 text-font text-5xl">
-            <h1>Le club des 50 ans et plus du Québec</h1>
+        <div class="navbar-center">
+          <a class="btn btn-ghost text-xl">Alain Marion</a>
         </div>
-        <div class="my-5 bg-red-500">
-            cc
+        <div class="navbar-end">
+          
+          
         </div>
+      </div>
+      <!--Navbar-->
+      <div class="hero bg-base-200 min-h-screen">
+        <div class="hero-content flex-col lg:flex-row-reverse">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+            class="max-w-sm rounded-lg shadow-2xl" />
+          <div>
+            <h1 class="text-5xl font-bold">Box Office News!</h1>
+            <p class="py-6">
+              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+              quasi. In deleniti eaque aut repudiandae et a id nisi.
+            </p>
+            <button class="btn btn-primary">Get Started</button>
+          </div>
+        </div>
+      </div>
+    
+
+    <!-- Section de contenu supplémentaire sous l'image de fond -->
+    <div class="px-4 sm:px-10 md:px-20 py-10 bg-lightdark text-font">
+      <div class="carousel carousel-center rounded-box space-x-4 p-4 overflow-x-auto">
+        <a href="" class="carousel-item">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp"
+            class="rounded-box" />
+        </a>
+        <a href="" class="carousel-item">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp"
+            class="rounded-box" />
+        </a>
+        <a href="" class="carousel-item">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp"
+            class="rounded-box" />
+        </a>
+        <a href="" class="carousel-item">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp"
+            class="rounded-box" />
+        </a>
+        <a href="" class="carousel-item">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp"
+            class="rounded-box" />
+        </a>
+        <a href="" class="carousel-item">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp"
+            class="rounded-box" />
+        </a>
+        <a href="" class="carousel-item">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp"
+            class="rounded-box" />
+        </a>
+      </div>
+      <footer class="text-center text-font text-xs mt-10 border-t-2 border-solid border-font pt-2 ">
+        <p>CE SITE WEB EST EN LIGNE DEPUIS 10 ANS</p></br>
+        <p>GROS MERCI AU CANADIEN DE MONTRÉAL: Félicitations Mr Alain Marion: Vous avez gagné l'une des 250 paires de billets gratuites pour le match des Canadiens le mardi (7/2) au Centre Bell Cher Alain Marion, Merci d'avoir participé au concours « 500 billets gratuits ». J'ai donné les deux billets a mon fils</p>
+      </footer>
     </div>
-</body>
+  </body>
 </html>

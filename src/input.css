@@ -1,0 +1,8 @@
+html {
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+body {
+  background-color: #242223;
+}

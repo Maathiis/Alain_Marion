@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Commander un site - Alain Marion</title>
+  </head>
+  <body class="bg-base-200">
+    <!--Navbar-->
+    <div class="navbar bg-base-300">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h7"
+              />
+            </svg>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+          >
+            <li><a href="../pages/index.html">Home</a></li>
+            <li><a href="../blog/1.html">Blog</a></li>
+            <li><a href="../pages/contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="navbar-center">
+        <a class="btn btn-ghost text-xl">Alain Marion</a>
+      </div>
+      <div class="navbar-end"></div>
+    </div>
+    <!--Navbar-->
+
+    <!-- Full-Width Order Form -->
+    <div class="flex items-center justify-center">
+      <div class="w-full max-w-3xl p-6 bg-base-100 shadow-lg rounded-lg m-6">
+        <h2 class="text-3xl font-bold text-center mb-6">
+          Commander un site web
+        </h2>
+        <p class="text-center text-gray-600 mb-6">
+          Complétez ce formulaire pour commander un site adapté à vos besoins.
+          Que vous souhaitiez un site vitrine, un blog ou une boutique en ligne,
+          nous sommes là pour réaliser votre projet !
+        </p>
+
+        <div class="space-y-6">
+          <!-- Name -->
+          <div class="form-control">
+            <label class="label">
+              <span class="label-text">Nom</span>
+            </label>
+            <input
+              type="text"
+              name="name"
+              placeholder="Votre nom"
+              class="input input-bordered w-full"
+              required
+            />
+          </div>
+
+          <!-- Email -->
+          <div class="form-control">
+            <label class="label">
+              <span class="label-text">Email</span>
+            </label>
+            <input
+              type="email"
+              name="email"
+              placeholder="Votre adresse email"
+              class="input input-bordered w-full"
+              required
+            />
+          </div>
+
+          <!-- Type de site -->
+          <div class="form-control">
+            <label class="label">
+              <span class="label-text">Type de site web souhaité</span>
+              <span class="label-text-alt text-gray-500">
+                Choisissez le type de site qui correspond le mieux à vos
+                besoins.
+              </span>
+            </label>
+            <select
+              name="site_type"
+              class="select select-bordered w-full"
+              required
+            >
+              <option disabled selected>Choisissez un type de site</option>
+              <option>Site vitrine - Présentation d'entreprise</option>
+              <option>Site e-commerce - Vente en ligne</option>
+              <option>Blog - Partage de contenus</option>
+              <option>Portfolio - Présentation de travaux</option>
+              <option>Autre - Spécifiez dans la description</option>
+            </select>
+          </div>
+
+          <!-- Description du projet -->
+          <div class="form-control">
+            <label class="label">
+              <span class="label-text">Description du projet</span>
+              <span class="label-text-alt text-gray-500">
+                Décrivez les fonctionnalités souhaitées, le style, etc.
+              </span>
+            </label>
+            <textarea
+              name="description"
+              placeholder="Décrivez les fonctionnalités et le style souhaité. Par exemple : fonctionnalités de paiement, galerie photo, section blog..."
+              class="textarea textarea-bordered w-full"
+              rows="6"
+              required
+            ></textarea>
+          </div>
+
+          <!-- Button -->
+          <div class="form-control mt-6">
+            <button class="btn btn-primary w-full text-lg">
+              Envoyer la commande
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Full-Width Order Form -->
+  </body>
+</html>
