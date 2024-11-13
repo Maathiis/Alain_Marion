@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../tailwind.config.js"></script>
+    <title>Blog Index - Alain Marion</title>
+  </head>
+  <body class="bg-base-200 text-base-content min-h-screen flex flex-col">
+    <!-- Navbar -->
+    <div class="navbar bg-base-300">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h7"
+              />
+            </svg>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+          >
+            <li><a href="../pages/index.html">Home</a></li>
+            <li><a href="../page/blog.html">Blog</a></li>
+            <li><a href="../pages/contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="navbar-center">
+        <a class="btn btn-ghost text-xl">Alain Marion</a>
+      </div>
+      <div class="navbar-end"></div>
+    </div>
+    <!-- Navbar -->
+
+    <!-- Blog Index Section -->
+    <section class="flex-grow flex items-start p-10">
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-4 w-full"
+      >
+        <div
+          class="card bg-base-100 shadow-md border border-base-300 rounded-lg overflow-hidden transform transition-transform duration-200 hover:scale-105"
+        >
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Image de l'article 1"
+            class="w-full h-32 object-cover"
+          />
+          <div class="p-3">
+            <a
+              href="../blog/1.html"
+              class="text-md font-semibold hover:underline block"
+            >
+              Office de tourisme de la Guadeloupe Montréal Canada
+            </a>
+            <p class="text-xs text-gray-500">Publié le : xx/xx/xxxx</p>
+          </div>
+        </div>
+
+        <div
+          class="card bg-base-100 shadow-md border border-base-300 rounded-lg overflow-hidden transform transition-transform duration-200 hover:scale-105"
+        >
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Image de l'article 2"
+            class="w-full h-32 object-cover"
+          />
+          <div class="p-3">
+            <a
+              href="../blog/2.html"
+              class="text-md font-semibold hover:underline block"
+            >
+              Les jeunes et la drogue
+            </a>
+            <p class="text-xs text-gray-500">Publié le : xx/xx/xxxx</p>
+          </div>
+        </div>
+
+        <div
+          class="card bg-base-100 shadow-md border border-base-300 rounded-lg overflow-hidden transform transition-transform duration-200 hover:scale-105"
+        >
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Image de l'article 3"
+            class="w-full h-32 object-cover"
+          />
+          <div class="p-3">
+            <a
+              href="../blog/3.html"
+              class="text-md font-semibold hover:underline block"
+            >
+              Riez dans la section politique
+            </a>
+            <p class="text-xs text-gray-500">Publié le : 8 nov 2024</p>
+          </div>
+        </div>
+
+        <div
+          class="card bg-base-100 shadow-md border border-base-300 rounded-lg overflow-hidden transform transition-transform duration-200 hover:scale-105"
+        >
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Image de l'article 2"
+            class="w-full h-32 object-cover"
+          />
+          <div class="p-3">
+            <a
+              href="../blog/2.html"
+              class="text-md font-semibold hover:underline block"
+            >
+              Le premier Avril 2133 tous les dieux seront dans toutes les
+              religions dans le monde
+            </a>
+            <p class="text-xs text-gray-500">Publié le : 10 nov 2024</p>
+          </div>
+        </div>
+
+        <div
+          class="card bg-base-100 shadow-md border border-base-300 rounded-lg overflow-hidden transform transition-transform duration-200 hover:scale-105"
+        >
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Image de l'article 2"
+            class="w-full h-32 object-cover"
+          />
+          <div class="p-3">
+            <a
+              href="../blog/2.html"
+              class="text-md font-semibold hover:underline block"
+            >
+              Le Premier Ministre du Québec " Guy Charest"
+            </a>
+            <p class="text-xs text-gray-500">Publié le : 10 nov 2024</p>
+          </div>
+        </div>
+
+        <div
+          class="card bg-base-100 shadow-md border border-base-300 rounded-lg overflow-hidden transform transition-transform duration-200 hover:scale-105"
+        >
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Image de l'article 2"
+            class="w-full h-32 object-cover"
+          />
+          <div class="p-3">
+            <a
+              href="../blog/2.html"
+              class="text-md font-semibold hover:underline block"
+            >
+              Mon message ci-dessous est la triste réalité en 2006
+            </a>
+            <p class="text-xs text-gray-500">Publié le : 10 nov 2024</p>
+          </div>
+        </div>
+
+        <div
+          class="card bg-base-100 shadow-md border border-base-300 rounded-lg overflow-hidden transform transition-transform duration-200 hover:scale-105"
+        >
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Image de l'article 2"
+            class="w-full h-32 object-cover"
+          />
+          <div class="p-3">
+            <a
+              href="../blog/2.html"
+              class="text-md font-semibold hover:underline block"
+            >
+              Les plus grand magouilleurs de l'histoire du Canada
+            </a>
+            <p class="text-xs text-gray-500">Publié le : 10 nov 2024</p>
+          </div>
+        </div>
+
+        <div
+          class="card bg-base-100 shadow-md border border-base-300 rounded-lg overflow-hidden transform transition-transform duration-200 hover:scale-105"
+        >
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Image de l'article 2"
+            class="w-full h-32 object-cover"
+          />
+          <div class="p-3">
+            <a
+              href="../blog/2.html"
+              class="text-md font-semibold hover:underline block"
+            >
+              Canadien ! Ne jamais imposer tes valeurs dans le monde arabe... et
+              autres pays
+            </a>
+            <p class="text-xs text-gray-500">Publié le : 10 nov 2024</p>
+          </div>
+        </div>
+
+        <div
+          class="card bg-base-100 shadow-md border border-base-300 rounded-lg overflow-hidden transform transition-transform duration-200 hover:scale-105"
+        >
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Image de l'article 2"
+            class="w-full h-32 object-cover"
+          />
+          <div class="p-3">
+            <a
+              href="../blog/2.html"
+              class="text-md font-semibold hover:underline block"
+            >
+              Le saviez-vous? La Femme Militaire est toujours violée dans
+              l'Armée Canadienne!
+            </a>
+            <p class="text-xs text-gray-500">Publié le : 10 nov 2024</p>
+          </div>
+        </div>
+
+        <div
+          class="card bg-base-100 shadow-md border border-base-300 rounded-lg overflow-hidden transform transition-transform duration-200 hover:scale-105"
+        >
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Image de l'article 2"
+            class="w-full h-32 object-cover"
+          />
+          <div class="p-3">
+            <a
+              href="../blog/2.html"
+              class="text-md font-semibold hover:underline block"
+            >
+              Canadien arrête ta Rêne de s'envoller Officiellement en Haïti
+            </a>
+            <p class="text-xs text-gray-500">Publié le : 10 nov 2024</p>
+          </div>
+        </div>
+
+        <div
+          class="card bg-base-100 shadow-md border border-base-300 rounded-lg overflow-hidden transform transition-transform duration-200 hover:scale-105"
+        >
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Image de l'article 2"
+            class="w-full h-32 object-cover"
+          />
+          <div class="p-3">
+            <a
+              href="../blog/2.html"
+              class="text-md font-semibold hover:underline block"
+            >
+              Article 2: Les bases du CSS et de Tailwind
+            </a>
+            <p class="text-xs text-gray-500">Publié le : 10 nov 2024</p>
+          </div>
+        </div>
+
+        <!-- Placeholders for other articles go here, up to 10 total -->
+      </div>
+    </section>
+    <!-- Blog Index Section End -->
+
+    <!-- Footer -->
+    <footer class="footer footer-center p-4 bg-base-300 text-base-content">
+      <div>
+        <p>&copy; 2024 Alain Marion - Tous droits réservés</p>
+      </div>
+    </footer>
+    <!-- Footer End -->
+  </body>
+</html>
